@@ -22,4 +22,4 @@ jobs:
 
     - name: Run tests
       run: |
-        pytest ./for-qa/python_qa
+        pytest ./for-qa/python_qa_pytest-master

@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5b50d18-6495-4ad2-932f-923819f68898" name="Default Changelist" comment="second lesson in progress 2" />
+    <list default="true" id="c5b50d18-6495-4ad2-932f-923819f68898" name="Default Changelist" comment="second lesson in progress 3">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/tests.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/tests.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -235,7 +238,23 @@
       <option name="project" value="LOCAL" />
       <updated>1708794223543</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="second lesson in progress 3">
+      <option name="closed" value="true" />
+      <created>1708794471308</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1708794471308</updated>
+    </task>
+    <task id="LOCAL-00008" summary="second lesson in progress 3">
+      <option name="closed" value="true" />
+      <created>1708794579150</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1708794579150</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -270,6 +289,7 @@
     <MESSAGE value="second lesson start" />
     <MESSAGE value="second lesson in progress 1" />
     <MESSAGE value="second lesson in progress 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="second lesson in progress 2" />
+    <MESSAGE value="second lesson in progress 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="second lesson in progress 3" />
   </component>
 </project>
