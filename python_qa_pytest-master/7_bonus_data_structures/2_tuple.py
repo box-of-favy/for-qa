@@ -1,7 +1,7 @@
 # CRUD (create, remove, update, delete)
 
 t = (1,2,3)
-t2 = tuple((1,2,3))
+t2 = tuple((1,2,3,4))
 print(type(t), t)
 print(type(t2), t2)
 print(t[1])

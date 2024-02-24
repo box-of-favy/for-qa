@@ -1,4 +1,9 @@
 # Создание тестовых файлов
+
+l.append(1)
+l.append('1 ')
+l.extend([2,3,4])
+
 def test_one():
     print(" >>> I'm test one!")
 

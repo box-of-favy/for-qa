@@ -1,5 +1,13 @@
 import subprocess
 
+l = []
+print("Type: ", type(l))
+l.append(1)
+l.append('1 ')
+l.extend([2,3,4])
+print("l -> ", l)
+
+
 # Создание тестовых файлов
 def test_one():
     print(" >>>I'm test one!")
@@ -21,7 +29,7 @@ class TestClass:
 subprocess.run(["pytest", "scripts_for_test/"])
 
 # Запустить pytest для конкретного файла
-subprocess.run(["pytest", "scripts_for_test/test_pytest_intro.py"])
+subprocess.run(["pytest", "scripts_for_test/tenTests.py"])
 
 # 1) Создаем файлы и функции с префиксом test
 # 2) Создаем классы с префиксом Test

@@ -17,3 +17,5 @@ def fixture_two(fixture_one):
 
 def test_function(fixture_two):
     print("\nHey, I'm test function!")
+def test_function2():
+    print("\nHey, I'm test function 2!")

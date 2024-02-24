@@ -6,7 +6,7 @@ def test_one_2(test_input):
     print(test_input)
 
 
-@pytest.mark.parametrize("test_input", [1, 2, 3])
+@pytest.mark.parametrize("test_input", [1, 2, 3, 4])
 class TestClassParametrized:
 
     # Все функци должны использовать аргумент
@@ -18,12 +18,12 @@ class TestClassParametrized:
 
 
 # Parametrize with fixture
-#
-# def test_one_1(fixture_with_params):
-#     print(fixture_with_params)
-#
+
+def test_one_1(fixture_with_params):
+    print(fixture_with_params)
+
 # Combine parametrization
-#
-# @pytest.mark.parametrize("test_input", [1, 2, 3])
+
+# @pytest.mark.parametrize("test_input", ['one', 'two', 'three'])
 # def test_one_2(test_input, fixture_with_params):
 #     print(test_input, fixture_with_params)

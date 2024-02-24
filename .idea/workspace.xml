@@ -4,12 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5b50d18-6495-4ad2-932f-923819f68898" name="Default Changelist" comment="commit from pycharm">
-      <change afterPath="$PROJECT_DIR$/0_pytest_intro/test_pytest_intro.py" afterDir="false" />
+    <list default="true" id="c5b50d18-6495-4ad2-932f-923819f68898" name="Default Changelist" comment="second lesson start">
+      <change afterPath="$PROJECT_DIR$/python_qa_pytest-master/4_fixtures_request_object_finalizer/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts-for-test/fibanachi.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts_for_test/fibanachi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts-for-test/first-script.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts_for_test/first-script.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0_pytest_intro/test_pytest_intro.py" beforeDir="false" afterPath="$PROJECT_DIR$/0_pytest_intro/tenTests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_qa_pytest-master/0_pytest_intro/test_pytest_intro.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_qa_pytest-master/0_pytest_intro/test_pytest_intro.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_qa_pytest-master/2_fixtures_conftest/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_qa_pytest-master/2_fixtures_conftest/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_qa_pytest-master/3_fixtures_scope_and_autouse/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_qa_pytest-master/3_fixtures_scope_and_autouse/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_qa_pytest-master/3_fixtures_scope_and_autouse/test_2_fixtures_autouse.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_qa_pytest-master/3_fixtures_scope_and_autouse/test_2_fixtures_autouse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_qa_pytest-master/4_fixtures_request_object_finalizer/test_1_fixtures_request.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_qa_pytest-master/4_fixtures_request_object_finalizer/test_1_fixtures_request.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_qa_pytest-master/4_fixtures_request_object_finalizer/test_3_fixtures_finalizer_with_yield.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_qa_pytest-master/4_fixtures_request_object_finalizer/test_3_fixtures_finalizer_with_yield.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_qa_pytest-master/4_fixtures_request_object_finalizer/test_4_pass_fixture_to_fixture.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_qa_pytest-master/4_fixtures_request_object_finalizer/test_4_pass_fixture_to_fixture.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_qa_pytest-master/6_fixtures_parametrization/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_qa_pytest-master/6_fixtures_parametrization/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_qa_pytest-master/6_fixtures_parametrization/test_fixtures_parametrization.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_qa_pytest-master/6_fixtures_parametrization/test_fixtures_parametrization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_qa_pytest-master/7_bonus_data_structures/1_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_qa_pytest-master/7_bonus_data_structures/1_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_qa_pytest-master/7_bonus_data_structures/2_tuple.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_qa_pytest-master/7_bonus_data_structures/2_tuple.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,18 +51,122 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests in 2_fixtures_conftest.executor": "Run",
+    "Python tests.Python tests in 3_fixtures_scope_and_autouse.executor": "Run",
+    "Python tests.Python tests in 4_fixtures_request_object_finalizer.executor": "Run",
+    "Python tests.Python tests in 5_fixtures_return_values.executor": "Run",
+    "Python tests.Python tests in 6_fixtures_parametrization.executor": "Run",
+    "Python tests.Python tests in test_4_pass_fixture_to_fixture.py.executor": "Run",
     "Python tests.Python tests in test_pytest_intro.py.executor": "Run",
+    "Python.1_list.executor": "Run",
+    "Python.2_tuple.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/favy/Documents/work/for-qa",
+    "last_opened_file_path": "C:/Users/favy/Documents/work/for-qa/python_qa_pytest-master/4_fixtures_request_object_finalizer",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\favy\Documents\work\for-qa\python_qa_pytest-master\4_fixtures_request_object_finalizer" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\favy\Documents\work\for-qa\0_test_pytest_intro" />
     </key>
+  </component>
+  <component name="RunManager" selected="Python.2_tuple">
+    <configuration name="2_tuple" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="for-qa" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_qa_pytest-master/7_bonus_data_structures" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_qa_pytest-master/7_bonus_data_structures/2_tuple.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in 4_fixtures_request_object_finalizer" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="for-qa" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_qa_pytest-master/4_fixtures_request_object_finalizer" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/python_qa_pytest-master/4_fixtures_request_object_finalizer&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in 5_fixtures_return_values" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="for-qa" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_qa_pytest-master/5_fixtures_return_values" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/python_qa_pytest-master/5_fixtures_return_values&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in 6_fixtures_parametrization" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="for-qa" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_qa_pytest-master/6_fixtures_parametrization" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/python_qa_pytest-master/6_fixtures_parametrization&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_4_pass_fixture_to_fixture.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="for-qa" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_qa_pytest-master/4_fixtures_request_object_finalizer" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/python_qa_pytest-master/4_fixtures_request_object_finalizer/test_4_pass_fixture_to_fixture.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.2_tuple" />
+        <item itemvalue="Python tests.Python tests in 6_fixtures_parametrization" />
+        <item itemvalue="Python tests.Python tests in 5_fixtures_return_values" />
+        <item itemvalue="Python tests.Python tests in test_4_pass_fixture_to_fixture.py" />
+        <item itemvalue="Python tests.Python tests in 4_fixtures_request_object_finalizer" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -87,7 +200,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708693501642</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="second lesson start">
+      <option name="closed" value="true" />
+      <created>1708722289323</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708722289323</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,6 +239,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit from pycharm" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit from pycharm" />
+    <MESSAGE value="second lesson start" />
+    <option name="LAST_COMMIT_MESSAGE" value="second lesson start" />
   </component>
 </project>

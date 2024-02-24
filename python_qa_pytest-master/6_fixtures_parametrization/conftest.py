@@ -1,6 +1,6 @@
 import pytest
 
 
-@pytest.fixture(params=[11, 12, 13, 14])
+@pytest.fixture(params=[11, 12, 13])
 def fixture_with_params(request):
     return request.param

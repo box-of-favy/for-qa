@@ -14,7 +14,7 @@ def first_fixture_for_request(request):
     #     print(el)
 
 
-def test_one(first_fixture_for_request):
+def test_one(first_fixture_for_request, function_fixture, class_fixture, module_fixture, session_fixture):
     print("\nPrint from 'test_one'")
 
 
