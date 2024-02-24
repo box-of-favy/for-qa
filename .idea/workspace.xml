@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5b50d18-6495-4ad2-932f-923819f68898" name="Default Changelist" comment="second lesson start">
-      <change afterPath="$PROJECT_DIR$/python_qa_pytest-master/4_fixtures_request_object_finalizer/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0_pytest_intro/test_pytest_intro.py" beforeDir="false" afterPath="$PROJECT_DIR$/0_pytest_intro/tenTests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_pytest-master/0_pytest_intro/test_pytest_intro.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_qa_pytest-master/0_pytest_intro/test_pytest_intro.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_pytest-master/2_fixtures_conftest/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_qa_pytest-master/2_fixtures_conftest/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_pytest-master/3_fixtures_scope_and_autouse/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_qa_pytest-master/3_fixtures_scope_and_autouse/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_pytest-master/3_fixtures_scope_and_autouse/test_2_fixtures_autouse.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_qa_pytest-master/3_fixtures_scope_and_autouse/test_2_fixtures_autouse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_pytest-master/4_fixtures_request_object_finalizer/test_1_fixtures_request.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_qa_pytest-master/4_fixtures_request_object_finalizer/test_1_fixtures_request.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_pytest-master/4_fixtures_request_object_finalizer/test_3_fixtures_finalizer_with_yield.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_qa_pytest-master/4_fixtures_request_object_finalizer/test_3_fixtures_finalizer_with_yield.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_pytest-master/4_fixtures_request_object_finalizer/test_4_pass_fixture_to_fixture.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_qa_pytest-master/4_fixtures_request_object_finalizer/test_4_pass_fixture_to_fixture.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_pytest-master/6_fixtures_parametrization/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_qa_pytest-master/6_fixtures_parametrization/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_pytest-master/6_fixtures_parametrization/test_fixtures_parametrization.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_qa_pytest-master/6_fixtures_parametrization/test_fixtures_parametrization.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_pytest-master/7_bonus_data_structures/1_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_qa_pytest-master/7_bonus_data_structures/1_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_pytest-master/7_bonus_data_structures/2_tuple.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_qa_pytest-master/7_bonus_data_structures/2_tuple.py" afterDir="false" />
-    </list>
+    <list default="true" id="c5b50d18-6495-4ad2-932f-923819f68898" name="Default Changelist" comment="second lesson in progress 1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -208,7 +193,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708722289323</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="second lesson in progress 1">
+      <option name="closed" value="true" />
+      <created>1708793231111</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708793231112</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -240,6 +233,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit from pycharm" />
     <MESSAGE value="second lesson start" />
-    <option name="LAST_COMMIT_MESSAGE" value="second lesson start" />
+    <MESSAGE value="second lesson in progress 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="second lesson in progress 1" />
   </component>
 </project>
