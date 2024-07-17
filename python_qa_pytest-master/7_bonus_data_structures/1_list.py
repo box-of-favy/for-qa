@@ -12,13 +12,13 @@ l.insert(1, 103)
 print("len of l -> ", len(l))
 print("l -> ", l)
 
-del l[0]
+# del l[0]
 print("l -> ", l)
 
 print("3 in l -> ", l.count(3), "times")
 print(l.pop(), l) # index or last
 
-del l
+# del l
 print("l -> ", l)
 
 # Comprehension
@@ -52,7 +52,10 @@ print(l4, l1)
 print("\n----Reverse----")
 # Option 1 list().reverse()
 l = [1,2,3,4,5,6]
+
+# .reverse возвращает none, он меняет порядок элементов в списке, не создавая новый список
 lr = l.reverse()
+
 # изначальный внутри себя перевернется, но lr = none
 print(l, lr)
 print("\n")
@@ -61,8 +64,15 @@ l = [1,2,3,4,5,6]
 lr = reversed(l)
 print(l, lr)
 print(l, list(lr))
+print(l, lr)
+print(l, list(lr))
 
 # option 3
 lr = l[::-1]
 
+print(l, lr)
+print(l, list(lr))
+print(l, lr)
+print(l, list(lr))
+print("Type: ", type(lr))
 
