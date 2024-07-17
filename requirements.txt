@@ -1,1 +1,3 @@
 pytest==8.0.1
+selenium==4.18.1
+geckodriver==0.34.0

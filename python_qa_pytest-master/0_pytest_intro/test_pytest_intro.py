@@ -1,5 +1,6 @@
 # Создание тестовых файлов
-
+l = []
+print("Type: ", type(l))
 l.append(1)
 l.append('1 ')
 l.extend([2,3,4])
