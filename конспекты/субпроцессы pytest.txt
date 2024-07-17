@@ -1,0 +1,8 @@
+# запуск отдельных файлов, функций, классов
+# Запустить pytest для всего каталога
+# subprocess.run(["pytest", "./scripts_for_test/"])
+
+# Запустить pytest для конкретного файла
+# subprocess.run(["pytest", "./scripts_for_test/tenTests.py"])
+
+
