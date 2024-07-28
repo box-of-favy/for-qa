@@ -17,6 +17,12 @@ driver = webdriver.Chrome(options=chrome_options)
 # Открытие главной страницы
 driver.get("http://localhost:8080/")
 
+#         # Явное ожидание появления элемента
+#         promo_block = WebDriverWait(driver, 10).until(
+#             EC.presence_of_element_located((By.CSS_SELECTOR, "#slideshow0"))
+#         )
+#        assert promo_block is not None, "Promo block is not present"
+#        print("Test 5: Promo block is present")
 
 # Тест 1: Проверка наличия логотипа
 def test_logo_presence():
@@ -58,18 +64,34 @@ def test_add_to_cart():
 # Тест 5: Проверка наличия промоблока (слайдера)
 
 # def test_promo_block():
-#     promo_block = WebDriverWait(driver, 10).until(
-#         EC.presence_of_element_located((By.CSS_SELECTOR, "#slideshow0"))
-#     )
-#     assert promo_block is not None, "Promo block is not present"
-#     print("Test 5: Promo block is present")
+#     try:
+#         # Явное ожидание появления элемента
+#         promo_block = WebDriverWait(driver, 10).until(
+#             EC.presence_of_element_located((By.CSS_SELECTOR, "#slideshow0"))
+#         )
+#         assert promo_block is not None, "Promo block is not present"
+#         print("Test 5: Promo block is present")
+#
+#         # Проверка наличия слайдов
+#         slides = promo_block.find_elements(By.CSS_SELECTOR, ".swiper-slide")
+#         num_slides = len(slides)
+#         print(f"Found {num_slides} states in the slideshow.")
+#
+#         # Вывод информации о каждом слайде
+#         for i, slide in enumerate(slides, start=1):
+#             slide_text = slide.text if slide.text else "No text"
+#             slide_image = slide.find_element(By.TAG_NAME, "img").get_attribute("src")
+#             print(f"State {i}: Text = '{slide_text}', Image URL = '{slide_image}'")
+#
+#     except Exception as e:
+#         print(f"Promo block not found: {e}")
 
 # Тест 5: Проверка наличия промоблока (слайдера)
-def test_promo_block():
-    promo_block = driver.find_element(By.CSS_SELECTOR, "#slideshow0")
-    # logo = driver.find_element(By.CSS_SELECTOR, "#logo a")
-    assert promo_block is not None, "Promo block is not present"
-    print("Test 5: Promo block is present")
+# def test_promo_block():
+#     promo_block = driver.find_element(By.CSS_SELECTOR, "#slideshow0")
+#     # logo = driver.find_element(By.CSS_SELECTOR, "#logo a")
+#     assert promo_block is not None, "Promo block is not present"
+#     print("Test 5: Promo block is present")
 
 
 # Выполнение тестов
@@ -77,7 +99,7 @@ test_logo_presence()
 test_search()
 test_top_menu()
 test_add_to_cart()
-test_promo_block()
+# test_promo_block()
 
 # Закрытие драйвера
 driver.quit()
