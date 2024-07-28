@@ -4,96 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5b50d18-6495-4ad2-932f-923819f68898" name="Default Changelist" comment="second lesson in progress 3">
-      <change afterPath="$PROJECT_DIR$/scripts_for_test/test_6/test_opencart.py" afterDir="false" />
+    <list default="true" id="c5b50d18-6495-4ad2-932f-923819f68898" name="Default Changelist" comment="six lesson in progress 1">
+      <change afterPath="$PROJECT_DIR$/scripts_for_test/test_6/port_conflict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts_for_test/test_6/test_log.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts_for_test/test_6/test_opencart_logs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/o-master/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o-master/PythonQA/Lesson11/1.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o-master/PythonQA/Lesson11/alerts.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o-master/PythonQA/Lesson11/downloadfile.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o-master/PythonQA/Lesson11/frame.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o-master/PythonQA/Lesson11/windows.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o-master/PythonQA/Lesson12/chromedriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o-master/PythonQA/Lesson12/test_logging.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o-master/PythonQA/Lesson12/test_logging_browser.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o-master/PythonQA/Lesson12/test_performance_log.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o-master/PythonQA/Lesson12/test_proxy.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o-master/PythonQA/Lesson16/parser.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o-master/PythonQA/Lesson16/perser_access_log.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o-master/PythonQA/Lesson4/File_management/data.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o-master/PythonQA/Lesson4/File_management/example1-rwo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o-master/PythonQA/Lesson4/File_management/example2-readfile-generator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o-master/PythonQA/Lesson4/File_management/example3-rwb.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o-master/PythonQA/Lesson4/File_management/example4-rwb.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o-master/PythonQA/Lesson4/File_management/example5-encoding.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o-master/PythonQA/Lesson4/File_management/example6-fileobject.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o-master/PythonQA/Lesson4/Iterators/example1-iterator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o-master/PythonQA/Lesson4/Iterators/example2-iterator-impl.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o-master/PythonQA/Lesson4/Iterators/example3-generator-expression.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o-master/PythonQA/Lesson4/Iterators/example4-generator-function.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o-master/PythonQA/Lesson4/Loops/example1-loops.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o-master/PythonQA/Lesson5/conftest.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o-master/PythonQA/Lesson5/parallelrun/application.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o-master/PythonQA/Lesson5/parallelrun/my_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o-master/PythonQA/Lesson5/parallelrun/test_chrome.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o-master/PythonQA/Lesson5/parallelrun/test_firefox.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o-master/PythonQA/Lesson5/test_example_1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o-master/PythonQA/Lesson5/test_example_2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o-master/PythonQA/Lesson5/test_example_3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/o-master/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_api-master/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_api-master/00_repeat/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_api-master/0_argparse/1_sys_args_method.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_api-master/0_argparse/2_argparse_method.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_api-master/1_pytest_addoption/conftest.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_api-master/1_pytest_addoption/test_demo_param.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_api-master/2_requests_json/json_example.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_api-master/2_requests_json/requests_example.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_api-master/3_fixtures_parametrization/conftest.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_api-master/3_fixtures_parametrization/test_fixtures_class_parametrization.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_api-master/3_fixtures_parametrization/test_fixtures_parametrization.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_api-master/4_api_testing/API.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_api-master/4_api_testing/conftest.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_api-master/4_api_testing/test_api_example1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_api-master/5_decorators/0_what_is_function.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_api-master/5_decorators/1_function_as_variable.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_api-master/5_decorators/2_call_function_inside_function.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_api-master/5_decorators/3_function_as_parametr.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_api-master/5_decorators/4_function_return_function.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_api-master/5_decorators/5_function_closure.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_api-master/5_decorators/6_basic_decorator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_api-master/5_decorators/7_syntax_sugar_for_deccorator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_api-master/5_decorators/8_multiple_decorators.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_api-master/5_decorators/9_params_to_decorators.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_api-master/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_api-master/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_api-master/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_pytest-master/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_pytest-master/0_pytest_intro/test_pytest_intro.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_pytest-master/1_fixtures_start/test_fixtures_example_start.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_pytest-master/2_fixtures_conftest/conftest.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_pytest-master/2_fixtures_conftest/test_fixtures_example.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_pytest-master/3_fixtures_scope_and_autouse/conftest.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_pytest-master/3_fixtures_scope_and_autouse/test_1_fixtures_scope.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_pytest-master/3_fixtures_scope_and_autouse/test_2_fixtures_autouse.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_pytest-master/4_fixtures_request_object_finalizer/conftest.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_pytest-master/4_fixtures_request_object_finalizer/test_1_fixtures_request.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_pytest-master/4_fixtures_request_object_finalizer/test_2_fixtures_request_finalizer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_pytest-master/4_fixtures_request_object_finalizer/test_3_fixtures_finalizer_with_yield.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_pytest-master/4_fixtures_request_object_finalizer/test_4_pass_fixture_to_fixture.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_pytest-master/5_fixtures_return_values/conftest.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_pytest-master/5_fixtures_return_values/test_fixtures_return_values.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_pytest-master/6_fixtures_parametrization/conftest.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_pytest-master/6_fixtures_parametrization/test_fixtures_parametrization.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_pytest-master/7_bonus_data_structures/1_list.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_pytest-master/7_bonus_data_structures/2_tuple.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_pytest-master/7_bonus_data_structures/3_set.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_pytest-master/7_bonus_data_structures/4_dict.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_pytest-master/7_bonus_data_structures/5_container.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_pytest-master/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_pytest-master/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_pytest-master/conftest.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_qa_pytest-master/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_for_test/test_6/test_opencart.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts_for_test/test_6/test_opencart.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/конспекты/скрипт_опенкарт_элементы.txt" beforeDir="false" afterPath="$PROJECT_DIR$/конспекты/скрипт_опенкарт_элементы.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +31,6 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -145,48 +61,55 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;Python tests.Python tests for Tests3.test5.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for tenTests.test_contains_10.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_3.test_breed_list.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_3.test_specific_url.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_5.test_opencart_homepage.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_fixtures_parametrization.test_parametrize_with_mark_single.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_fixtures_parametrization.test_parametrized_with_fixture.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_yandex200.test_url_status.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in 2_fixtures_conftest.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in 3_fixtures_scope_and_autouse.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in 4_fixtures_request_object_finalizer.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in 5_fixtures_return_values.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in 6_fixtures_parametrization.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in Tests3.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in tenTests.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in tenTets.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_1_fixtures_request.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_4.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_4_pass_fixture_to_fixture.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_5.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_pytest_intro.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1_list.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1_sys_args_method.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2_argparse_method.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2_tuple.executor&quot;: &quot;Run&quot;,
-    &quot;Python.conftest.executor&quot;: &quot;Run&quot;,
-    &quot;Python.conteiners.executor&quot;: &quot;Run&quot;,
-    &quot;Python.fibanachi.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tenTests.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_5.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/olesia/olya/for-qa&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Python tests.Python tests for Tests3.test5.executor": "Run",
+    "Python tests.Python tests for tenTests.test_contains_10.executor": "Run",
+    "Python tests.Python tests for test_3.test_breed_list.executor": "Run",
+    "Python tests.Python tests for test_3.test_specific_url.executor": "Run",
+    "Python tests.Python tests for test_5.test_opencart_homepage.executor": "Run",
+    "Python tests.Python tests for test_fixtures_parametrization.test_parametrize_with_mark_single.executor": "Run",
+    "Python tests.Python tests for test_fixtures_parametrization.test_parametrized_with_fixture.executor": "Run",
+    "Python tests.Python tests for test_opencart.test_logo_presence.executor": "Run",
+    "Python tests.Python tests for test_opencart.test_promo_block.executor": "Run",
+    "Python tests.Python tests for test_opencart_logs.test_logs.executor": "Run",
+    "Python tests.Python tests for test_opencart_logs.test_logs_wrapper.executor": "Run",
+    "Python tests.Python tests for test_yandex200.test_url_status.executor": "Run",
+    "Python tests.Python tests in 2_fixtures_conftest.executor": "Run",
+    "Python tests.Python tests in 3_fixtures_scope_and_autouse.executor": "Run",
+    "Python tests.Python tests in 4_fixtures_request_object_finalizer.executor": "Run",
+    "Python tests.Python tests in 5_fixtures_return_values.executor": "Run",
+    "Python tests.Python tests in 6_fixtures_parametrization.executor": "Run",
+    "Python tests.Python tests in Tests3.py.executor": "Run",
+    "Python tests.Python tests in tenTests.py.executor": "Run",
+    "Python tests.Python tests in tenTets.py.executor": "Run",
+    "Python tests.Python tests in test_1_fixtures_request.py.executor": "Run",
+    "Python tests.Python tests in test_4.py.executor": "Run",
+    "Python tests.Python tests in test_4_pass_fixture_to_fixture.py.executor": "Run",
+    "Python tests.Python tests in test_5.py.executor": "Run",
+    "Python tests.Python tests in test_opencart.py.executor": "Run",
+    "Python tests.Python tests in test_pytest_intro.py.executor": "Run",
+    "Python.1_list.executor": "Run",
+    "Python.1_sys_args_method.executor": "Run",
+    "Python.2_argparse_method.executor": "Run",
+    "Python.2_tuple.executor": "Run",
+    "Python.conftest.executor": "Run",
+    "Python.conteiners.executor": "Run",
+    "Python.fibanachi.executor": "Run",
+    "Python.oop_example.executor": "Run",
+    "Python.port_conflict.executor": "Run",
+    "Python.tenTests.executor": "Run",
+    "Python.test_5.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/olesia/olya/for-qa",
+    "settings.editor.selected.configurable": "advanced.settings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\olesia\olya\for-qa" />
@@ -194,12 +117,13 @@
       <recent name="C:\Users\favy\Documents\work\for-qa\python_qa_pytest-master\4_fixtures_request_object_finalizer" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\favy\Documents\work\for-qa" />
       <recent name="C:\Users\olesia\olya\for-qa\scripts_for_test" />
       <recent name="C:\Users\favy\Documents\work\for-qa\0_test_pytest_intro" />
     </key>
   </component>
   <component name="RunManager" selected="Python tests.Python tests in test_5.py">
-    <configuration name="test_5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="port_conflict" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="for-qa" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -208,11 +132,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts_for_test/test_5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts_for_test/test_6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts_for_test/test_5/test_5.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts_for_test/test_6/port_conflict.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -221,49 +145,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_3.test_specific_url" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_opencart_logs.test_logs" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="for-qa" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts_for_test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts_for_test/test_6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_3.test_specific_url&quot;" />
+      <option name="_new_target" value="&quot;test_opencart_logs.test_logs&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_5.test_opencart_homepage" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_opencart_logs.test_logs_wrapper" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="for-qa" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts_for_test/test_5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts_for_test/test_6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_5.test_opencart_homepage&quot;" />
+      <option name="_new_target" value="&quot;test_opencart_logs.test_logs_wrapper&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests in test_4.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="for-qa" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts_for_test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/scripts_for_test/test_4.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests in test_5.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -281,20 +190,35 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests in test_opencart.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="for-qa" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts_for_test/test_6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/scripts_for_test/test_6/test_opencart.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.test_5" />
-      <item itemvalue="Python tests.Python tests for test_5.test_opencart_homepage" />
+      <item itemvalue="Python.port_conflict" />
+      <item itemvalue="Python tests.Python tests for test_opencart_logs.test_logs" />
+      <item itemvalue="Python tests.Python tests for test_opencart_logs.test_logs_wrapper" />
+      <item itemvalue="Python tests.Python tests in test_opencart.py" />
       <item itemvalue="Python tests.Python tests in test_5.py" />
-      <item itemvalue="Python tests.Python tests for test_3.test_specific_url" />
-      <item itemvalue="Python tests.Python tests in test_4.py" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Python tests in test_5.py" />
-        <item itemvalue="Python.test_5" />
-        <item itemvalue="Python tests.Python tests for test_5.test_opencart_homepage" />
-        <item itemvalue="Python tests.Python tests in test_4.py" />
-        <item itemvalue="Python tests.Python tests for test_3.test_specific_url" />
+        <item itemvalue="Python.port_conflict" />
+        <item itemvalue="Python tests.Python tests in test_opencart.py" />
+        <item itemvalue="Python tests.Python tests for test_opencart_logs.test_logs_wrapper" />
+        <item itemvalue="Python tests.Python tests for test_opencart_logs.test_logs" />
       </list>
     </recent_temporary>
   </component>
@@ -378,7 +302,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708794579150</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fifth lesson in progress 1">
+      <option name="closed" value="true" />
+      <created>1721318944752</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1721318944753</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -414,6 +346,7 @@
     <MESSAGE value="second lesson in progress 1" />
     <MESSAGE value="second lesson in progress 2" />
     <MESSAGE value="second lesson in progress 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="second lesson in progress 3" />
+    <MESSAGE value="fifth lesson in progress 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="fifth lesson in progress 1" />
   </component>
 </project>
