@@ -4,16 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5b50d18-6495-4ad2-932f-923819f68898" name="Default Changelist" comment="second lesson in progress 3">
-      <change afterPath="$PROJECT_DIR$/docker/test/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/test/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts_for_test/test_5/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts_for_test/test_5/test_5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/for-qa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/for-qa.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c5b50d18-6495-4ad2-932f-923819f68898" name="Default Changelist" comment="fifth lesson in progress 1">
+      <change afterPath="$PROJECT_DIR$/pyhton_qa_element_search-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyhton_qa_element_search-master/0_OOP/exeption_handling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyhton_qa_element_search-master/0_OOP/oop_example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyhton_qa_element_search-master/1_frontend_for_qa/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyhton_qa_element_search-master/1_frontend_for_qa/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyhton_qa_element_search-master/2_find_element_and_elements_by/test_selenium_examples.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyhton_qa_element_search-master/3_find_element_and_elements/find_element_exmaples.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyhton_qa_element_search-master/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyhton_qa_element_search-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyhton_qa_element_search-master/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyhton_qa_element_search-master/locators/MainPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyhton_qa_element_search-master/locators/ProductPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyhton_qa_element_search-master/locators/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyhton_qa_element_search-master/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts_for_test/test_6/test_opencart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swiper.jquery.js.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/opencart/opencart.conf" beforeDir="false" afterPath="$PROJECT_DIR$/docker/opencart/opencart.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_for_test/test_5/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts_for_test/test_5/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_for_test/test_5/test_5.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts_for_test/test_5/test_5.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +86,7 @@
     "Python tests.Python tests for test_5.test_opencart_homepage.executor": "Run",
     "Python tests.Python tests for test_fixtures_parametrization.test_parametrize_with_mark_single.executor": "Run",
     "Python tests.Python tests for test_fixtures_parametrization.test_parametrized_with_fixture.executor": "Run",
+    "Python tests.Python tests for test_opencart.test_promo_block.executor": "Run",
     "Python tests.Python tests for test_yandex200.test_url_status.executor": "Run",
     "Python tests.Python tests in 2_fixtures_conftest.executor": "Run",
     "Python tests.Python tests in 3_fixtures_scope_and_autouse.executor": "Run",
@@ -88,6 +100,7 @@
     "Python tests.Python tests in test_4.py.executor": "Run",
     "Python tests.Python tests in test_4_pass_fixture_to_fixture.py.executor": "Run",
     "Python tests.Python tests in test_5.py.executor": "Run",
+    "Python tests.Python tests in test_opencart.py.executor": "Run",
     "Python tests.Python tests in test_pytest_intro.py.executor": "Run",
     "Python.1_list.executor": "Run",
     "Python.1_sys_args_method.executor": "Run",
@@ -96,6 +109,7 @@
     "Python.conftest.executor": "Run",
     "Python.conteiners.executor": "Run",
     "Python.fibanachi.executor": "Run",
+    "Python.oop_example.executor": "Run",
     "Python.tenTests.executor": "Run",
     "Python.test_5.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -113,11 +127,34 @@
       <recent name="C:\Users\favy\Documents\work\for-qa\python_qa_pytest-master\4_fixtures_request_object_finalizer" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\favy\Documents\work\for-qa" />
       <recent name="C:\Users\olesia\olya\for-qa\scripts_for_test" />
       <recent name="C:\Users\favy\Documents\work\for-qa\0_test_pytest_intro" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in test_5.py">
+  <component name="RunManager" selected="Python tests.Python tests in test_opencart.py">
+    <configuration name="oop_example" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="for-qa" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyhton_qa_element_search-master/0_OOP" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyhton_qa_element_search-master/0_OOP/oop_example.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test_5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="for-qa" />
       <option name="ENV_FILES" value="" />
@@ -140,49 +177,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_3.test_specific_url" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_opencart.test_promo_block" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="for-qa" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts_for_test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts_for_test/test_6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_3.test_specific_url&quot;" />
+      <option name="_new_target" value="&quot;test_opencart.test_promo_block&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_5.test_opencart_homepage" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="for-qa" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts_for_test/test_5" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_5.test_opencart_homepage&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests in test_4.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="for-qa" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts_for_test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/scripts_for_test/test_4.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests in test_5.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -200,20 +207,35 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests in test_opencart.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="for-qa" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts_for_test/test_6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/scripts_for_test/test_6/test_opencart.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Python.oop_example" />
       <item itemvalue="Python.test_5" />
-      <item itemvalue="Python tests.Python tests for test_5.test_opencart_homepage" />
+      <item itemvalue="Python tests.Python tests for test_opencart.test_promo_block" />
+      <item itemvalue="Python tests.Python tests in test_opencart.py" />
       <item itemvalue="Python tests.Python tests in test_5.py" />
-      <item itemvalue="Python tests.Python tests for test_3.test_specific_url" />
-      <item itemvalue="Python tests.Python tests in test_4.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests in test_opencart.py" />
+        <item itemvalue="Python tests.Python tests for test_opencart.test_promo_block" />
+        <item itemvalue="Python.oop_example" />
         <item itemvalue="Python tests.Python tests in test_5.py" />
         <item itemvalue="Python.test_5" />
-        <item itemvalue="Python tests.Python tests for test_5.test_opencart_homepage" />
-        <item itemvalue="Python tests.Python tests in test_4.py" />
-        <item itemvalue="Python tests.Python tests for test_3.test_specific_url" />
       </list>
     </recent_temporary>
   </component>
@@ -297,7 +319,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708794579150</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fifth lesson in progress 1">
+      <option name="closed" value="true" />
+      <created>1721318944752</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1721318944753</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -333,6 +363,7 @@
     <MESSAGE value="second lesson in progress 1" />
     <MESSAGE value="second lesson in progress 2" />
     <MESSAGE value="second lesson in progress 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="second lesson in progress 3" />
+    <MESSAGE value="fifth lesson in progress 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="fifth lesson in progress 1" />
   </component>
 </project>

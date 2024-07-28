@@ -1,2 +1,0 @@
-# otus
-examples from lessons
