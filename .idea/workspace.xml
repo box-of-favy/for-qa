@@ -4,26 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5b50d18-6495-4ad2-932f-923819f68898" name="Default Changelist" comment="six lesson in progress, empty script&#10;all lessons to gitignore">
-      <change afterPath="$PROJECT_DIR$/docker/opencart.7z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts_for_test/test_6/5 tests/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts_for_test/test_6/5 tests/main_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts_for_test/test_6/5 tests/search.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts_for_test/test_6/5 tests/test_registration.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts_for_test/test_6/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts_for_test/test_6/olesia/test_opencart_logs-3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts_for_test/test_6/olesia/test_opencart_olesia.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts_for_test/test_6/test_opencart_5tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts_for_test/test_6/test_opencart_cloude.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts_for_test/test_6/test_opencart_logs-3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts_for_test/test_6/ДЗ.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts_for_test/test_saucedemo/saucedemo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="c5b50d18-6495-4ad2-932f-923819f68898" name="Default Changelist" comment="много тестов для опенкарт&#10;локаторы в отдельном пакете&#10;все тесты работают">
+      <change afterPath="$PROJECT_DIR$/scripts_for_test/test_6/5 tests/locators/pages.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts_for_test/старые_скрипты/containers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts_for_test/test_5/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts_for_test/test_5/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts_for_test/test_6/port_conflict.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts_for_test/test_6/test_opencart.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts_for_test/test_6/test_opencart.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_for_test/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts_for_test/старые_скрипты/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_for_test/containers.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts_for_test/test_6/5 tests/locators/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_for_test/decorator_time.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts_for_test/старые_скрипты/decorator_time.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_for_test/fibanachi.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts_for_test/старые_скрипты/fibanachi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_for_test/first-script.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_for_test/loop.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts_for_test/старые_скрипты/loop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_for_test/test_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts_for_test/старые_скрипты/test_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_for_test/test_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts_for_test/старые_скрипты/test_4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_for_test/test_6/5 tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts_for_test/test_6/5 tests/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_for_test/test_6/5 tests/main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts_for_test/test_6/5 tests/test_main_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_for_test/test_6/5 tests/search.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts_for_test/test_6/5 tests/test_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_for_test/test_6/data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_for_test/test_6/test_log.log" beforeDir="false" afterPath="$PROJECT_DIR$/scripts_for_test/test_6/5 tests/locators/locators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_for_test/test_6/test_opencart.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_for_test/test_6/test_opencart_5tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_for_test/test_6/test_opencart_cloude.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_for_test/test_6/test_opencart_logs-3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_for_test/test_6/test_opencart_logs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_for_test/test_api_params.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts_for_test/старые_скрипты/test_api_params.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_for_test/test_tenTests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_for_test/test_yandex200.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts_for_test/старые_скрипты/test_yandex200.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,6 +137,7 @@
     "Python tests.Python tests in test_amazon_example.py.executor": "Run",
     "Python tests.Python tests in test_login.py.executor": "Run",
     "Python tests.Python tests in test_logo.py.executor": "Run",
+    "Python tests.Python tests in test_main_page.py.executor": "Run",
     "Python tests.Python tests in test_opencart.py.executor": "Run",
     "Python tests.Python tests in test_opencart_1.py.executor": "Run",
     "Python tests.Python tests in test_opencart_cloude.py.executor": "Run",
@@ -179,23 +186,30 @@
       <recent name="C:\Users\favy\Documents\work\for-qa\0_test_pytest_intro" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in main_page.py">
-    <configuration name="Python tests for main_page.test_footer" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests in test_main_page.py">
+    <configuration name="conftest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="for-qa" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts_for_test/test_6/5 tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;main_page.test_footer&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts_for_test/test_6/5 tests/conftest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for main_page.test_slideshow_presence" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for main_page.test_logo_presence" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="for-qa" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -206,7 +220,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;main_page.test_slideshow_presence&quot;" />
+      <option name="_new_target" value="&quot;main_page.test_logo_presence&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -225,7 +239,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in main_page.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in test_main_page.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="for-qa" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -236,11 +250,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/scripts_for_test/test_6/5 tests/main_page.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/scripts_for_test/test_6/5 tests/test_main_page.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in search.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in test_search.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="for-qa" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -251,24 +265,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/scripts_for_test/test_6/5 tests/search.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/scripts_for_test/test_6/5 tests/test_search.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Python tests for main_page.test_footer" />
-      <item itemvalue="Python tests.Python tests for main_page.test_slideshow_presence" />
+      <item itemvalue="Python.conftest" />
+      <item itemvalue="Python tests.Python tests in test_main_page.py" />
+      <item itemvalue="Python tests.Python tests in test_search.py" />
+      <item itemvalue="Python tests.Python tests for main_page.test_logo_presence" />
       <item itemvalue="Python tests.Python tests for search.test_search_functionality" />
-      <item itemvalue="Python tests.Python tests in main_page.py" />
-      <item itemvalue="Python tests.Python tests in search.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests in main_page.py" />
-        <item itemvalue="Python tests.Python tests in search.py" />
+        <item itemvalue="Python tests.Python tests in test_main_page.py" />
+        <item itemvalue="Python tests.Python tests for main_page.test_logo_presence" />
+        <item itemvalue="Python.conftest" />
+        <item itemvalue="Python tests.Python tests in test_search.py" />
         <item itemvalue="Python tests.Python tests for search.test_search_functionality" />
-        <item itemvalue="Python tests.Python tests for main_page.test_footer" />
-        <item itemvalue="Python tests.Python tests for main_page.test_slideshow_presence" />
       </list>
     </recent_temporary>
   </component>
@@ -353,7 +367,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721318944753</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="много тестов для опенкарт">
+      <option name="closed" value="true" />
+      <created>1722516899498</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1722516899499</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -390,6 +412,8 @@
     <MESSAGE value="second lesson in progress 2" />
     <MESSAGE value="second lesson in progress 3" />
     <MESSAGE value="fifth lesson in progress 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="fifth lesson in progress 1" />
+    <MESSAGE value="много тестов для опенкарт" />
+    <MESSAGE value="много тестов для опенкарт&#10;локаторы в отдельном пакете&#10;все тесты работают" />
+    <option name="LAST_COMMIT_MESSAGE" value="много тестов для опенкарт&#10;локаторы в отдельном пакете&#10;все тесты работают" />
   </component>
 </project>
