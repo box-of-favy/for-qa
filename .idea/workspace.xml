@@ -5,9 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5b50d18-6495-4ad2-932f-923819f68898" name="Default Changelist" comment="починила регистрацию, изменив в конфтесте емейл и пассворд на scope=&quot;function&quot;&#10;создала test_smoke (не работает)&#10;удалила test_5">
-      <change beforePath="$PROJECT_DIR$/scripts_for_test/test_5/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts_for_test/test_5/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts_for_test/test_6/5 tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts_for_test/test_6/5 tests/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts_for_test/test_6/5 tests/test_main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts_for_test/test_6/5 tests/test_main_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/for-qa.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/for-qa.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_for_test/test_6/5 tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts_for_test/test_6/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_for_test/test_6/5 tests/locators/MainPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts_for_test/test_6/locators/MainPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_for_test/test_6/5 tests/locators/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts_for_test/test_6/locators/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_for_test/test_6/5 tests/locators/pages.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts_for_test/test_6/locators/pages.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_for_test/test_6/5 tests/pytest.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_for_test/test_6/5 tests/test_main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts_for_test/test_6/test_main_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_for_test/test_6/5 tests/test_registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts_for_test/test_6/test_registration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_for_test/test_6/5 tests/test_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts_for_test/test_6/test_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_for_test/test_6/5 tests/test_smoke.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts_for_test/test_6/test_smoke.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_for_test/test_6/olesia/test_opencart_logs-3.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts_for_test/old_scripts/olesia/test_opencart_logs-3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_for_test/test_6/olesia/test_opencart_olesia.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts_for_test/old_scripts/olesia/test_opencart_olesia.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_for_test/test_6/ДЗ.txt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts_for_test/old_scripts/ДЗ.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts_for_test/test_6/конфтест.txt" beforeDir="false" afterPath="$PROJECT_DIR$/scripts_for_test/old_scripts/конфтест.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +39,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="develop" />
+        <entry key="$PROJECT_DIR$" value="main_bak" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -62,99 +77,100 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;Python tests.Python tests for Tests3.test5.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for main_page.test_footer.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for main_page.test_logo_presence.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for main_page.test_slideshow_presence.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for main_page.test_slideshow_swipe.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for search.test_search_functionality.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for tenTests.test_contains_10.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_3.test_breed_list.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_3.test_specific_url.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_3_login.test_loging2.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_3_login.test_logout.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_5.test_opencart_homepage.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_fixtures_parametrization.test_parametrize_with_mark_single.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_fixtures_parametrization.test_parametrized_with_fixture.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_login.test_loging.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_logo.test_logo_click.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_logo.test_top_panel.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_opencart.test_logo_presence.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_opencart.test_promo_block.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_opencart_1.test_change_currency.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_opencart_1.test_login.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_opencart_1.test_logo_presence.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_opencart_1.test_promo_block.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_opencart_1.test_search.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_opencart_logs-3.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_opencart_logs.test_logs.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_opencart_logs.test_logs_wrapper.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_opencart_olesia.test_logo_present.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_opencart_olesia.test_logs.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_registration.test_Register.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_registration.test_input.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_registration.test_my_account.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_webdriver.test_logo_presence.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_yandex200.test_url_status.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in 2_fixtures_conftest.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in 3_fixtures_scope_and_autouse.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in 4_fixtures_request_object_finalizer.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in 5 tests.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in 5_fixtures_return_values.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in 6_fixtures_parametrization.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in Tests3.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in main_page.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in search.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in tenTests.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in tenTets.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_1_fixtures_request.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_3_login.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_4.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_4_pass_fixture_to_fixture.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_5.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_amazon_example.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_login.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_logo.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_main_page.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_opencart.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_opencart_1.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_opencart_cloude.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_opencart_logs-3.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_opencart_olesia.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_pytest_intro.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_registration.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_saucedemo.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_try.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_webdriver.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.test_opencart_logs-3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1_list.executor&quot;: &quot;Run&quot;,
-    &quot;Python.1_sys_args_method.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2_argparse_method.executor&quot;: &quot;Run&quot;,
-    &quot;Python.2_tuple.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MainPage.executor&quot;: &quot;Run&quot;,
-    &quot;Python.amazon_example (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.amazon_example.executor&quot;: &quot;Run&quot;,
-    &quot;Python.conftest.executor&quot;: &quot;Run&quot;,
-    &quot;Python.conteiners.executor&quot;: &quot;Run&quot;,
-    &quot;Python.fibanachi.executor&quot;: &quot;Run&quot;,
-    &quot;Python.oop_example.executor&quot;: &quot;Run&quot;,
-    &quot;Python.port_conflict.executor&quot;: &quot;Run&quot;,
-    &quot;Python.saucedemo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tenTests.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.try (1).executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/olesia/olya/for-qa&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Python tests.Python tests for Tests3.test5.executor": "Run",
+    "Python tests.Python tests for main_page.test_footer.executor": "Run",
+    "Python tests.Python tests for main_page.test_logo_presence.executor": "Run",
+    "Python tests.Python tests for main_page.test_slideshow_presence.executor": "Run",
+    "Python tests.Python tests for main_page.test_slideshow_swipe.executor": "Run",
+    "Python tests.Python tests for search.test_search_functionality.executor": "Run",
+    "Python tests.Python tests for tenTests.test_contains_10.executor": "Run",
+    "Python tests.Python tests for test_3.test_breed_list.executor": "Run",
+    "Python tests.Python tests for test_3.test_specific_url.executor": "Run",
+    "Python tests.Python tests for test_3_login.test_loging2.executor": "Run",
+    "Python tests.Python tests for test_3_login.test_logout.executor": "Run",
+    "Python tests.Python tests for test_5.test_opencart_homepage.executor": "Run",
+    "Python tests.Python tests for test_fixtures_parametrization.test_parametrize_with_mark_single.executor": "Run",
+    "Python tests.Python tests for test_fixtures_parametrization.test_parametrized_with_fixture.executor": "Run",
+    "Python tests.Python tests for test_login.test_loging.executor": "Run",
+    "Python tests.Python tests for test_logo.test_logo_click.executor": "Run",
+    "Python tests.Python tests for test_logo.test_top_panel.executor": "Run",
+    "Python tests.Python tests for test_opencart.test_logo_presence.executor": "Run",
+    "Python tests.Python tests for test_opencart.test_promo_block.executor": "Run",
+    "Python tests.Python tests for test_opencart_1.test_change_currency.executor": "Run",
+    "Python tests.Python tests for test_opencart_1.test_login.executor": "Run",
+    "Python tests.Python tests for test_opencart_1.test_logo_presence.executor": "Run",
+    "Python tests.Python tests for test_opencart_1.test_promo_block.executor": "Run",
+    "Python tests.Python tests for test_opencart_1.test_search.executor": "Run",
+    "Python tests.Python tests for test_opencart_logs-3.executor": "Run",
+    "Python tests.Python tests for test_opencart_logs.test_logs.executor": "Run",
+    "Python tests.Python tests for test_opencart_logs.test_logs_wrapper.executor": "Run",
+    "Python tests.Python tests for test_opencart_olesia.test_logo_present.executor": "Run",
+    "Python tests.Python tests for test_opencart_olesia.test_logs.executor": "Run",
+    "Python tests.Python tests for test_registration.test_Register.executor": "Run",
+    "Python tests.Python tests for test_registration.test_input.executor": "Run",
+    "Python tests.Python tests for test_registration.test_my_account.executor": "Run",
+    "Python tests.Python tests for test_webdriver.test_logo_presence.executor": "Run",
+    "Python tests.Python tests for test_yandex200.test_url_status.executor": "Run",
+    "Python tests.Python tests in 2_fixtures_conftest.executor": "Run",
+    "Python tests.Python tests in 3_fixtures_scope_and_autouse.executor": "Run",
+    "Python tests.Python tests in 4_fixtures_request_object_finalizer.executor": "Run",
+    "Python tests.Python tests in 5 tests.executor": "Run",
+    "Python tests.Python tests in 5_fixtures_return_values.executor": "Run",
+    "Python tests.Python tests in 6_fixtures_parametrization.executor": "Run",
+    "Python tests.Python tests in Tests3.py.executor": "Run",
+    "Python tests.Python tests in main_page.py.executor": "Run",
+    "Python tests.Python tests in search.py.executor": "Run",
+    "Python tests.Python tests in tenTests.py.executor": "Run",
+    "Python tests.Python tests in tenTets.py.executor": "Run",
+    "Python tests.Python tests in test_1_fixtures_request.py.executor": "Run",
+    "Python tests.Python tests in test_3_login.py.executor": "Run",
+    "Python tests.Python tests in test_4.py.executor": "Run",
+    "Python tests.Python tests in test_4_pass_fixture_to_fixture.py.executor": "Run",
+    "Python tests.Python tests in test_5.py.executor": "Run",
+    "Python tests.Python tests in test_6.executor": "Run",
+    "Python tests.Python tests in test_amazon_example.py.executor": "Run",
+    "Python tests.Python tests in test_login.py.executor": "Run",
+    "Python tests.Python tests in test_logo.py.executor": "Run",
+    "Python tests.Python tests in test_main_page.py.executor": "Run",
+    "Python tests.Python tests in test_opencart.py.executor": "Run",
+    "Python tests.Python tests in test_opencart_1.py.executor": "Run",
+    "Python tests.Python tests in test_opencart_cloude.py.executor": "Run",
+    "Python tests.Python tests in test_opencart_logs-3.py.executor": "Run",
+    "Python tests.Python tests in test_opencart_olesia.py.executor": "Run",
+    "Python tests.Python tests in test_pytest_intro.py.executor": "Run",
+    "Python tests.Python tests in test_registration.py.executor": "Run",
+    "Python tests.Python tests in test_saucedemo.py.executor": "Run",
+    "Python tests.Python tests in test_try.py.executor": "Run",
+    "Python tests.Python tests in test_webdriver.py.executor": "Run",
+    "Python tests.test_opencart_logs-3.executor": "Run",
+    "Python.1_list.executor": "Run",
+    "Python.1_sys_args_method.executor": "Run",
+    "Python.2_argparse_method.executor": "Run",
+    "Python.2_tuple.executor": "Run",
+    "Python.MainPage.executor": "Run",
+    "Python.amazon_example (1).executor": "Run",
+    "Python.amazon_example.executor": "Run",
+    "Python.conftest.executor": "Run",
+    "Python.conteiners.executor": "Run",
+    "Python.fibanachi.executor": "Run",
+    "Python.oop_example.executor": "Run",
+    "Python.port_conflict.executor": "Run",
+    "Python.saucedemo.executor": "Run",
+    "Python.tenTests.executor": "Run",
+    "Python.test_5.executor": "Run",
+    "Python.try (1).executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/olesia/olya/for-qa",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\olesia\olya\for-qa" />
@@ -162,36 +178,14 @@
       <recent name="C:\Users\favy\Documents\work\for-qa\python_qa_pytest-master\4_fixtures_request_object_finalizer" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\favy\Documents\work\for-qa\scripts_for_test\test_6" />
+      <recent name="C:\Users\favy\Documents\work\for-qa\scripts_for_test\old_scripts" />
       <recent name="C:\Users\favy\Documents\work\for-qa\scripts_for_test\test_6\5 tests" />
       <recent name="C:\Users\favy\Documents\work\for-qa\scripts_for_test\test_6\5 tests\locators" />
       <recent name="C:\Users\favy\Documents\work\for-qa\scripts_for_test\старые_скрипты" />
-      <recent name="C:\Users\favy\Documents\work\for-qa\scripts_for_test\test_6\olesia" />
-      <recent name="C:\Users\favy\Documents\work\for-qa" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in 5 tests">
-    <configuration name="MainPage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="for-qa" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts_for_test/test_6/5 tests/locators" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts_for_test/test_6/5 tests/locators/MainPage.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Python tests in test_6">
     <configuration name="Python tests in 5 tests" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="for-qa" />
       <option name="ENV_FILES" value="" />
@@ -222,6 +216,21 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests in test_6" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="for-qa" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts_for_test/test_6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/scripts_for_test/test_6&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests in test_main_page.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="for-qa" />
       <option name="ENV_FILES" value="" />
@@ -233,7 +242,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/scripts_for_test/test_6/5 tests/test_main_page.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/scripts_for_test/test_6/test_main_page.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -248,12 +257,12 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/scripts_for_test/test_6/5 tests/test_registration.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/scripts_for_test/test_6/test_registration.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.MainPage" />
+      <item itemvalue="Python tests.Python tests in test_6" />
       <item itemvalue="Python tests.Python tests in C:/Users/favy/Documents/work/for-qa/scripts_for_test/test_6/5 tests/test_5.py" />
       <item itemvalue="Python tests.Python tests in 5 tests" />
       <item itemvalue="Python tests.Python tests in test_main_page.py" />
@@ -261,10 +270,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests in test_6" />
         <item itemvalue="Python tests.Python tests in 5 tests" />
         <item itemvalue="Python tests.Python tests in test_registration.py" />
         <item itemvalue="Python tests.Python tests in test_main_page.py" />
-        <item itemvalue="Python.MainPage" />
         <item itemvalue="Python tests.Python tests in C:/Users/favy/Documents/work/for-qa/scripts_for_test/test_6/5 tests/test_5.py" />
       </list>
     </recent_temporary>
