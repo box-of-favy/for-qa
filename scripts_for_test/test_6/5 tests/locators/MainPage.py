@@ -2,6 +2,7 @@
 
 from selenium.webdriver.common.by import By
 
+
 class MainPageLocators:
     LOGO = (By.CSS_SELECTOR, "#logo a")
     SEARCH_BOX = (By.CSS_SELECTOR, 'input[name="search"]')
@@ -9,6 +10,7 @@ class MainPageLocators:
     SEARCH_RESULTS_HEADER = (By.CSS_SELECTOR, 'div#content h1')
     PRODUCT_THUMB = (By.CSS_SELECTOR, 'div.product-thumb')
     PRODUCT_NAME = (By.CSS_SELECTOR, 'h4 a')
+
 
 class TopPanelLocators:
     TOP_PANEL = (By.CSS_SELECTOR, 'nav#top')
@@ -29,20 +31,21 @@ class TopPanelLocators:
     SHOPPING_CART = (By.CSS_SELECTOR, 'a[title="Shopping Cart"]')
     CHECKOUT = (By.CSS_SELECTOR, 'a[title="Checkout"]')
 
+
 class MenuLocators:
-    MENU_ITEMS = {
-        "Desktops": (By.CSS_SELECTOR, 'a[href*="product/category&path=20"]'),
-        "Laptops & Notebooks": (By.CSS_SELECTOR, 'a[href*="product/category&path=18"]'),
-        "Components": (By.CSS_SELECTOR, 'a[href*="product/category&path=25"]'),
-        "Tablets": (By.CSS_SELECTOR, 'a[href*="product/category&path=57"]'),
-        "Software": (By.CSS_SELECTOR, 'a[href*="product/category&path=17"]'),
-        "Phones & PDAs": (By.CSS_SELECTOR, 'a[href*="product/category&path=24"]'),
-        "Cameras": (By.CSS_SELECTOR, 'a[href*="product/category&path=33"]'),
-        "MP3 Players": (By.CSS_SELECTOR, 'a[href*="product/category&path=34"]')
-    }
+    DESKTOPS = (By.CSS_SELECTOR, 'a[href*="product/category&path=20"]')
+    LAPTOPS_NOTEBOOKS = (By.CSS_SELECTOR, 'a[href*="product/category&path=18"]')
+    COMPONENTS = (By.CSS_SELECTOR, 'a[href*="product/category&path=25"]')
+    TABLETS = (By.CSS_SELECTOR, 'a[href*="product/category&path=57"]')
+    SOFTWARE = (By.CSS_SELECTOR, 'a[href*="product/category&path=17"]')
+    PHONES_PDAS = (By.CSS_SELECTOR, 'a[href*="product/category&path=24"]')
+    CAMERAS = (By.CSS_SELECTOR, 'a[href*="product/category&path=33"]')
+    MP3_PLAYERS = (By.CSS_SELECTOR, 'a[href*="product/category&path=34"]')
+
 
 class SlideshowLocators:
     SLIDESHOW = (By.CSS_SELECTOR, 'div#slideshow0')
+
 
 class FooterLocators:
     FOOTER_SECTIONS = {

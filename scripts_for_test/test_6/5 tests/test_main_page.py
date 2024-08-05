@@ -1,7 +1,5 @@
-from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-
 from locators.MainPage import MainPageLocators, TopPanelLocators, MenuLocators, SlideshowLocators, FooterLocators
  
 # Тест 1: Проверка наличия логотипа
@@ -58,18 +56,18 @@ def test_my_account_dropdown(driver):
 def test_menu_elements(driver):
     # Проверка наличия элементов в меню навигации
     menu_elements = {
-        "Desktops": 'a[href*="product/category&path=20"]',
-        "Laptops & Notebooks": 'a[href*="product/category&path=18"]',
-        "Components": 'a[href*="product/category&path=25"]',
-        "Tablets": 'a[href*="product/category&path=57"]',
-        "Software": 'a[href*="product/category&path=17"]',
-        "Phones & PDAs": 'a[href*="product/category&path=24"]',
-        "Cameras": 'a[href*="product/category&path=33"]',
-        "MP3 Players": 'a[href*="product/category&path=34"]'
+        "Desktops": MenuLocators.DESKTOPS,
+        "Laptops & Notebooks": MenuLocators.LAPTOPS_NOTEBOOKS,
+        "Components": MenuLocators.COMPONENTS,
+        "Tablets": MenuLocators.TABLETS,
+        "Software": MenuLocators.SOFTWARE,
+        "Phones & PDAs": MenuLocators.PHONES_PDAS,
+        "Cameras": MenuLocators.CAMERAS,
+        "MP3 Players": MenuLocators.MP3_PLAYERS,
     }
 
-    for name, selector in menu_elements.items():
-        element = driver.find_element(By.CSS_SELECTOR, selector)
+    for name, locator in menu_elements.items():
+        element = driver.find_element(*locator)
         assert element is not None, f"{name} is not present"
 
 
