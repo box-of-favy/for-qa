@@ -1,6 +1,6 @@
 pytest~=8.0.1
 requests~=2.32.3
 pandas~=2.2.2
-python~=3.10
+python~=3.12
 selenium~=4.22.0
 Faker~=26.0.0

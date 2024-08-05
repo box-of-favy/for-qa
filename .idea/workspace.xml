@@ -185,8 +185,8 @@
       <recent name="C:\Users\favy\Documents\work\for-qa\scripts_for_test\старые_скрипты" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in test_6">
-    <configuration name="Python tests in 5 tests" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests in opencart">
+    <configuration name="Python tests in C:/Users/favy/Documents/work/for-qa/scripts_for_test/test_6/5 tests" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="for-qa" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -216,18 +216,18 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_6" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in opencart" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="for-qa" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts_for_test/test_6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts_for_test/opencart" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/scripts_for_test/test_6&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/scripts_for_test/opencart&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -242,7 +242,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/scripts_for_test/test_6/test_main_page.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/scripts_for_test/opencart/test_main_page.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -257,21 +257,21 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/scripts_for_test/test_6/test_registration.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/scripts_for_test/opencart/test_registration.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Python tests in test_6" />
+      <item itemvalue="Python tests.Python tests in C:/Users/favy/Documents/work/for-qa/scripts_for_test/test_6/5 tests" />
+      <item itemvalue="Python tests.Python tests in opencart" />
       <item itemvalue="Python tests.Python tests in C:/Users/favy/Documents/work/for-qa/scripts_for_test/test_6/5 tests/test_5.py" />
-      <item itemvalue="Python tests.Python tests in 5 tests" />
       <item itemvalue="Python tests.Python tests in test_main_page.py" />
       <item itemvalue="Python tests.Python tests in test_registration.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests in test_6" />
-        <item itemvalue="Python tests.Python tests in 5 tests" />
+        <item itemvalue="Python tests.Python tests in opencart" />
+        <item itemvalue="Python tests.Python tests in C:/Users/favy/Documents/work/for-qa/scripts_for_test/test_6/5 tests" />
         <item itemvalue="Python tests.Python tests in test_registration.py" />
         <item itemvalue="Python tests.Python tests in test_main_page.py" />
         <item itemvalue="Python tests.Python tests in C:/Users/favy/Documents/work/for-qa/scripts_for_test/test_6/5 tests/test_5.py" />
