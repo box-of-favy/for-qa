@@ -1,11 +1,13 @@
 from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support import expected_conditions as ec
 from locators.MainPage import MainPageLocators, TopPanelLocators, MenuLocators, SlideshowLocators, FooterLocators
- 
+
+
 # Тест 1: Проверка наличия логотипа
 def test_logo_presence(driver):
     logo = driver.find_element(*MainPageLocators.LOGO)
     assert logo is not None, "Logo is not present"
+
 
 # Тест 2: Проверка кнопки логотипа
 def test_logo_click(driver):
@@ -14,10 +16,12 @@ def test_logo_click(driver):
     logo.click()
     assert driver.current_url == "http://localhost:8080/index.php?route=common/home", "Logo does not lead to main page"
 
+
 def test_top_panel(driver):
     # Проверка наличия верхней панели
     top_panel = driver.find_element(*TopPanelLocators.TOP_PANEL)
     assert top_panel is not None, "Top panel is not present"
+
 
 def test_elements(driver):
     # Проверка наличия элементов верхней панели
@@ -43,6 +47,8 @@ def test_currency_dropdown(driver):
     for name, locator in TopPanelLocators.CURRENCY_ITEMS.items():
         item = dropdown.find_element(*locator)
         assert item is not None, f"{name} in Currency dropdown is not present"
+
+
 def test_my_account_dropdown(driver):
     # Проверка наличия выпадающего списка для My Account
     driver.find_element(*TopPanelLocators.MY_ACCOUNT).click()
@@ -52,6 +58,7 @@ def test_my_account_dropdown(driver):
     for name, locator in TopPanelLocators.MY_ACCOUNT_ITEMS.items():
         item = dropdown.find_element(*locator)
         assert item is not None, f"{name} in My Account dropdown is not present"
+
 
 def test_menu_elements(driver):
     # Проверка наличия элементов в меню навигации
@@ -76,11 +83,11 @@ def test_slideshow_presence(driver):
     slideshow = driver.find_element(*SlideshowLocators.SLIDESHOW)
     assert slideshow is not None, "Slideshow is not present"
 
+
 def test_footer(driver):
     # Проверка наличия элементов в футере, где FooterLocators это класс в locators, footer_sections это словарь
     for name, locator in FooterLocators.FOOTER_SECTIONS.items():
         element = WebDriverWait(driver, 10).until(
-            EC.presence_of_element_located(locator)
+            ec.presence_of_element_located(locator)
         )
         assert element is not None, f"{name} is not present"
-

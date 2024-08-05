@@ -15,6 +15,7 @@ def pytest_addoption(parser):
                      help="Browser to use for tests: chrome, firefox, ie")
     parser.addoption("--base_url", action="store", default="http://localhost:8080", help="Base URL for Opencart")
 
+
 @pytest.fixture
 def browser(request, browser_name):
     driver = None
@@ -58,6 +59,7 @@ def base_url(request):
     if not all([result.scheme, result.netloc]):
         raise ValueError(f"Invalid URL: {url}")
     return url
+
 
 @pytest.fixture
 def base_url(request):

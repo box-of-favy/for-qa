@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5b50d18-6495-4ad2-932f-923819f68898" name="Default Changelist" comment="пайлинт обновлен">
-      <change afterPath="$PROJECT_DIR$/scripts_for_test/test_6/5 tests/pytest.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts_for_test/test_6/5 tests/test_0smoke.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_28_07_2024_19_52__Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts_for_test/test_5/test_5.py" beforeDir="false" />
+    <list default="true" id="c5b50d18-6495-4ad2-932f-923819f68898" name="Default Changelist" comment="починила регистрацию, изменив в конфтесте емейл и пассворд на scope=&quot;function&quot;&#10;создала test_smoke (не работает)&#10;удалила test_5">
+      <change beforePath="$PROJECT_DIR$/scripts_for_test/test_5/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts_for_test/test_5/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts_for_test/test_6/5 tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts_for_test/test_6/5 tests/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts_for_test/test_6/5 tests/locators/MainPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts_for_test/test_6/5 tests/locators/MainPage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts_for_test/test_6/5 tests/test_main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts_for_test/test_6/5 tests/test_main_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts_for_test/test_6/5 tests/test_registration.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts_for_test/test_6/5 tests/test_registration.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +169,7 @@
       <recent name="C:\Users\favy\Documents\work\for-qa" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in test_registration.py">
+  <component name="RunManager" selected="Python tests.Python tests in 5 tests">
     <configuration name="MainPage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="for-qa" />
       <option name="ENV_FILES" value="" />
@@ -267,8 +261,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests in test_registration.py" />
         <item itemvalue="Python tests.Python tests in 5 tests" />
+        <item itemvalue="Python tests.Python tests in test_registration.py" />
         <item itemvalue="Python tests.Python tests in test_main_page.py" />
         <item itemvalue="Python.MainPage" />
         <item itemvalue="Python tests.Python tests in C:/Users/favy/Documents/work/for-qa/scripts_for_test/test_6/5 tests/test_5.py" />
@@ -396,7 +390,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722855503887</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="починила регистрацию, изменив в конфтесте емейл и пассворд на scope=&quot;function&quot;&#10;создала test_smoke (не работает)&#10;удалила test_5">
+      <option name="closed" value="true" />
+      <created>1722860857184</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1722860857184</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -449,6 +451,7 @@
     <MESSAGE value="много тестов для опенкарт&#10;локаторы в отдельном пакете&#10;все тесты работают" />
     <MESSAGE value="лишнее убрано в гит игнор" />
     <MESSAGE value="пайлинт обновлен" />
-    <option name="LAST_COMMIT_MESSAGE" value="пайлинт обновлен" />
+    <MESSAGE value="починила регистрацию, изменив в конфтесте емейл и пассворд на scope=&quot;function&quot;&#10;создала test_smoke (не работает)&#10;удалила test_5" />
+    <option name="LAST_COMMIT_MESSAGE" value="починила регистрацию, изменив в конфтесте емейл и пассворд на scope=&quot;function&quot;&#10;создала test_smoke (не работает)&#10;удалила test_5" />
   </component>
 </project>
