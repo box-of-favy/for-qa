@@ -65,8 +65,6 @@
 import pytest
 from selenium.webdriver.common.by import By
 
-pytestmark = pytest.mark.incremental
-
 class TestRegistration:
     def test_my_account(self, driver):
         my_account = driver.find_element(By.XPATH, '//a[@title="My Account"]')
