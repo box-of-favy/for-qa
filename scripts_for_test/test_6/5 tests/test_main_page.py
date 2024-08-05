@@ -2,7 +2,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-from locators.locators import MainPageLocators, TopPanelLocators, MenuLocators, SlideshowLocators, FooterLocators
+from locators.MainPage import MainPageLocators, TopPanelLocators, MenuLocators, SlideshowLocators, FooterLocators
  
 # Тест 1: Проверка наличия логотипа
 def test_logo_presence(driver):

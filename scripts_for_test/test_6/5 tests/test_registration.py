@@ -1,4 +1,6 @@
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 def test_my_account(driver):
 
@@ -8,8 +10,7 @@ def test_my_account(driver):
 
 def test_dropdown(driver):
     # Ожидание появления выпадающего списка
-    dropdown_menu = driver.find_element(By.CLASS_NAME, 'dropdown-menu.dropdown-menu-right')
-
+    dropdown_menu =driver.find_element(By.CSS_SELECTOR, '.dropdown-menu.dropdown-menu-right')
     # Проверка наличия элементов "Register" и "Login" в выпадающем списке
     register_link = dropdown_menu.find_element(By.LINK_TEXT, 'Register')
     login_link = dropdown_menu.find_element(By.LINK_TEXT, 'Login')
@@ -40,7 +41,7 @@ def test_input(driver, user_email, user_password):
 
     # Проверка успешной регистрации
     assert "Congratulations! Your new account has been successfully created!" in driver.page_source, "Не зарегистрировать аккаунт"
-    assert "route=account/success" in driver.current_url, "Не зарегистрировать аккаунт"
+    assert "route=account/success" in driver.current_url, "Не зарегистрирован аккаунт"
 
 def test_logout(driver, user_email, user_password):
 
